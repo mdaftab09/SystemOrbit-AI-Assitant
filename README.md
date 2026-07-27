@@ -33,6 +33,7 @@ Make sure you have **Python** and **Ollama** installed on your system.
    ```bash
    ollama run llama3.2:1b
    ```
+   ---
 ## Installation & Setup
 1.Clone the repository:
 git clone [https://github.com/mdaftab09/SystemOrbit-Ai-Assistant.git](https://github.com/mdaftab09/SystemOrbit-Ai-Assistant.git)
@@ -54,6 +55,7 @@ pip install fastapi uvicorn chromadb ollama pydantic
 ```bash
 uvicorn server:app --reload
 ```
+---
 ##🧪 Testing the API
 Once the server is running, you can interact with it using FastAPI's built-in interactive documentation:
 
@@ -68,7 +70,7 @@ Once the server is running, you can interact with it using FastAPI's built-in in
 }
 ```
 4.Observe the terminal logs as the RAG pipeline retrieves the company policy, the agent autonomously triggers the tool execution loop, and the server returns the final response.
-
+---
 ##📊 System Workflow
 Retrieve: User prompt is analyzed and matched against company docs stored in ChromaDB using high-dimensional embeddings.
 
