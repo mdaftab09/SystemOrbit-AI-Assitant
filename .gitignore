@@ -6,3 +6,6 @@ __pycache__/
 
 # Ignore secret environment variables (just in case we use them later!)
 .env
+# IDEs
+.vscode/
+.idea/
